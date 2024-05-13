@@ -1,0 +1,8 @@
+<div [ngClass]="{'top-nav': true, 'slided-top-nav': slideTopNav(), 'menu-button-at-end': true}">
+    <span [ngClass]="{ 'hidden-div': !isScreenSizeValid()}">
+
+    </span>
+    <span [ngClass]="{ 'hidden-div': isScreenSizeValid()}">
+        <side-nav-toogle-button></side-nav-toogle-button>
+    </span>
+</div>

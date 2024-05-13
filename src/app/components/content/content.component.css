@@ -1,0 +1,13 @@
+.content {
+    border: 1px solid black;
+    width: 100vw;
+    padding: 8px;
+}
+
+.slided-content {
+    transition: margin-left .1s;
+    width: 65vw !important;
+    position: absolute;
+    right: 0%;
+    top: 8vh;
+}
